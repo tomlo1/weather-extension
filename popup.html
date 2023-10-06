@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/ce7z6m8SRO/4z6UO5GKf4W8p1Gp4PPj4DnDrr7" crossorigin="anonymous">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Dark Mode Stylesheet -->
+    <link rel="stylesheet" id="dark-mode" href="dark-mode.css" disabled>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <!-- Dark Mode Toggle Button -->
+    <button id="toggle-dark-mode" class="fas fa-moon" style="top: 10px;"></button>
+    <div class="container">
+        <!-- Your HTML structure goes here -->
+        <div class="search-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fas fa-search"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Oops! Invalid location :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fas fa-tint"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fas fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="all.css">
+    <!-- Main Script -->
+    <script src="popup.js"></script>
+</body>
+
+</html>
